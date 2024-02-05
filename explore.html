@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>The first thing we need to do, is to check if Git is properly installed:
+
+                Example
+                git --version
+                git version 2.30.2.windows.1
+                If Git is installed, it should show something like git version X.Y</li>
+            <li>Now let Git know who you are. This is important for version control systems, as each Git commit uses this information:
+
+                Example
+                git config --global user.name "XYZ"
+                git config --global user.email "xyz@gmail.com"
+                Change the user name and e-mail address to your own. You will probably also want to use this when registering to GitHub later on.</li>
+            <li>Creating Git Folder
+                Now, let's create a new folder for our project:
+                
+                Example
+                mkdir myproject
+                cd myproject
+                mkdir makes a new directory.
+                
+                cd changes the current working directory.
+                
+                Now that we are in the correct directory. We can start by initializing Git!</li>
+            <li>Initialize Git
+                Once you have navigated to the correct folder, you can initialize Git on that folder:
+                
+                Example
+                git init 
+                Initialized empty Git repository in /Users/user/myproject/.git/
+                You just created your first Git Repository!</li>
+            <li>git clone:
+
+                Description: Clones a repository into a new directory.
+                Usage: git clone repository_url</li>
+            <li>git add:
+
+                Description: Adds changes in the working directory to the staging area.
+                Usage: git add (file) or git add . (to add all changes)</li>
+                <li>git status:
+
+                    Description: Shows the status of changes as untracked, modified, or staged.
+                    Usage: git status</li>
+                <li>git log:
+
+                    Description: Displays the commit history.
+                    Usage: git log</li>
+                <li>git branch:
+
+                    Description: Lists existing branches or creates a new branch.
+                    Usage: git branch or git branch branch_name</li>
+                <li>git checkout:
+
+                    Description: Switches to a different branch or restores working tree files.
+                    Usage: git checkout branch_name or git checkout file</li>
+                <li>git merge:
+
+                    Description: Combines changes from one branch into another.
+                    Usage: git merge branch_name</li>
+        </ul>
+    </div>
+</body>
+</html>
